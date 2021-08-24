@@ -10,3 +10,5 @@
 /OrderProcessing/OrderProcessing.API/obj
 /OrderProcessing/OrderProcessing.Core/bin/Debug/netcoreapp3.1
 /OrderProcessing/OrderProcessing.Core/obj
+/OrderProcessing/OrderProcessing.API.Tests/bin/Debug/netcoreapp3.1
+/OrderProcessing/OrderProcessing.API.Tests/obj

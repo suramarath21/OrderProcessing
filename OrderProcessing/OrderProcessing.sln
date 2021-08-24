@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.API", "Orde
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.Core", "OrderProcessing.Core\OrderProcessing.Core.csproj", "{D41BCC34-DBD5-4DFB-925B-3EDD84839E3C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{8221FA6B-BD84-4D2C-B76F-AE9523695AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessing.API.Tests", "OrderProcessing.API.Tests\OrderProcessing.API.Tests.csproj", "{90EE0199-BC72-4412-9010-AD59CB5C5BD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +25,16 @@ Global
 		{D41BCC34-DBD5-4DFB-925B-3EDD84839E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D41BCC34-DBD5-4DFB-925B-3EDD84839E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D41BCC34-DBD5-4DFB-925B-3EDD84839E3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EE0199-BC72-4412-9010-AD59CB5C5BD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EE0199-BC72-4412-9010-AD59CB5C5BD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EE0199-BC72-4412-9010-AD59CB5C5BD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EE0199-BC72-4412-9010-AD59CB5C5BD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{90EE0199-BC72-4412-9010-AD59CB5C5BD9} = {8221FA6B-BD84-4D2C-B76F-AE9523695AAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FDDAC152-FF62-497D-9E74-B7CC893480A7}
