@@ -5,3 +5,8 @@
 /.vs
 /OrderProcessing/.vs/OrderProcessing/v16
 /OrderProcessing/OrderProcessingAPI/obj
+/OrderProcessing/.vs/OrderProcessing/DesignTimeBuild
+/OrderProcessing/OrderProcessing.API/bin/Debug/netcoreapp3.1
+/OrderProcessing/OrderProcessing.API/obj
+/OrderProcessing/OrderProcessing.Core/bin/Debug/netcoreapp3.1
+/OrderProcessing/OrderProcessing.Core/obj
