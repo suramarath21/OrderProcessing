@@ -10,6 +10,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using OrderProcessing.Core;
+using OrderProcessing.Core.Commands;
+using OrderProcessing.Core.Managers;
+using MediatR;
 
 namespace OrderProcessing.API
 {
@@ -26,6 +30,12 @@ namespace OrderProcessing.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            //Register dependencies
+            services.AddScoped(typeof(IOrderPaymentsManager), typeof(OrderPaymentsManager));
+            services.AddScoped(typeof(Executor), typeof(Executor));
+            services.AddMediatR(typeof(Startup));
+            services.AddMediatR(typeof(ActivateMemberShipCommandHandler));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
